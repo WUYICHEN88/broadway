@@ -1,0 +1,73 @@
+html {
+  text-align: center;
+}
+
+h1 {
+  font-family: Helvetica;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+a {
+  font-family: Helvetica;
+  font-size: 18px;
+  color: white;
+}
+a:link, a:visited {
+    background-color: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: dimgray;
+    transition-duration: 1.2s;
+    transition-delay: 0.2s;
+}
+
+#boner {
+  background-image: url("./background.png");
+}
+
+h2 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 14px;
+}
+
+#background {
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  background-image: url("./background.png");
+}
+
+.cr {
+    font-family: Helvetica;
+    font-size: 11px;
+    color: white;
+    text-align: left;
+}
+#bottom {
+  background-color: dimgray;
+}
+#bottom a:hover{
+  padding: 5px,5px;
+  background-color: black;
+}
